@@ -1,0 +1,4 @@
+#Installations via $pip install -r requirements.txt
+flask==3.0.3  #flask 
+python-dotenv
+
