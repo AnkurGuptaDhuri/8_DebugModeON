@@ -9,7 +9,6 @@ load_dotenv()
 @app1.route('/')
 def home():
     print(os.getcwd())
-    print(os.environ['EMAIL'])
     print(os.environ['FLASK_ENV'])
     return "<h1>Welcome to Home - changes updated </h1>"
 
